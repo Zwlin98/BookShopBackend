@@ -5,5 +5,8 @@ from announcement.serializers import AnnouncementSerializer
 
 
 class AnnouncementListView(ListAPIView):
+    """
+    公告列表
+    """
     queryset = Announcement.objects.all()
     serializer_class = AnnouncementSerializer

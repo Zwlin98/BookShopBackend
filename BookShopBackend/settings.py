@@ -128,6 +128,8 @@ STATIC_URL = '/static/'
 
 # ---------------项目相关配置------------------
 # 默认用户类
+DOMAIN = 'http://127.0.0.1:8000/'
+
 AUTH_USER_MODEL = 'user.User'
 
 REST_FRAMEWORK = {

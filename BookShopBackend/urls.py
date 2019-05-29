@@ -23,6 +23,6 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('books/', include('book.urls')),
     path('announcements/', include('announcement.urls')),
-    # path('orders/', include('order.urls')),
+    path('orders/', include('order.urls')),
     path('users/', include('user.urls'))
 ]

@@ -1,3 +1,5 @@
 .idea
 db.sqlite3
 *.py[cod]
+SMS.py
+key.py
